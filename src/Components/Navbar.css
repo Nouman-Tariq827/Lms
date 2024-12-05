@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar{
+    display: flex;
+    margin-top: 0.9%;
+    justify-content: space-between;
+    padding: 5px 0px;
+    width: 100%;
+    /* overflow: hidden; */
+    /* border: 2px solid black; */
+    position: fixed;   /* This will keep the navbar fixed at the top */
+    top: 0;            /* Position the navbar at the top of the page */
+    left: 0; 
+    z-index: 1000;
+    background-color: white;
+}
+.hamburger{
+    background-color: rgb(13, 17, 24);
+    padding: 20px 27px;
+    /* border: 2px solid black; */
+
+}
+.logo-title{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    height: 40px;
+    /* border: 2px solid black; */
+
+}
+.title{
+    font-size: 24px;
+}
+.detail-pic{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vh;
+
+}
+.Student-pic{
+    height: 50px;
+    width: 41px;
+    border-radius: 50%;
+    background-color: grey;
+}

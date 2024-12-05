@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(21, 26, 34);
+    width: 32px;
+    height: 100vh;
+    padding: 26px;
+    /* position: absolute;
+    top: 0px; */  position: fixed;   /* This will keep the navbar fixed at the top */
+    top: 0;            /* Position the navbar at the top of the page */
+    left: 45; 
+    z-index: 5;
+}
+.sidebar ul{
+    /* position: relative;
+    top: 0px; */
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+}
